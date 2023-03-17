@@ -1,0 +1,30 @@
+.form-add-task {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-add-task input[type="text"],
+.form-add-task input[type="date"],
+.form-add-task textarea {
+    border: 1px solid #dde3e9;
+}
+
+@media screen and (max-width: 600px) {
+    .form-add-task textarea {
+        height: 100px;
+    }
+}
+
+.save-task {
+    border: none;
+    background-color: #1805e7c4;
+    padding: 8px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+.save-task:hover {
+    background-color: #01325c;
+}
